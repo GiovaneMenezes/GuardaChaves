@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C35621C4D88D2E3B4A43CEF /* libPods-Prova Pratica iOS Cedro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 659F327BEDCA4FB992A2263A /* libPods-Prova Pratica iOS Cedro.a */; };
+		AE16C161210063FC00549F56 /* EditSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C160210063FC00549F56 /* EditSiteView.swift */; };
+		AE16C1632100CAE300549F56 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C1622100CAE300549F56 /* KeychainPasswordItem.swift */; };
+		AE16C1652100DD8600549F56 /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C1642100DD8600549F56 /* BiometricIDAuth.swift */; };
+		AE16C16821010C6500549F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE16C16621010C6500549F56 /* Main.storyboard */; };
+		AE2096B221011166006E6534 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096AE21011166006E6534 /* User+CoreDataClass.swift */; };
+		AE2096B321011166006E6534 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096AF21011166006E6534 /* User+CoreDataProperties.swift */; };
+		AE2096B421011166006E6534 /* Site+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B021011166006E6534 /* Site+CoreDataProperties.swift */; };
+		AE2096B521011166006E6534 /* Site+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B121011166006E6534 /* Site+CoreDataClass.swift */; };
+		AE2096B721017464006E6534 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B621017463006E6534 /* LoadingView.swift */; };
 		AEB7CB8320F7C1E8001E396B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */; };
-		AEB7CB8520F7C1E8001E396B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB8420F7C1E8001E396B /* ViewController.swift */; };
-		AEB7CB8820F7C1E8001E396B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB7CB8620F7C1E8001E396B /* Main.storyboard */; };
 		AEB7CB8B20F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB8920F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld */; };
 		AEB7CB8D20F7C1EB001E396B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */; };
 		AEB7CB9020F7C1EB001E396B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB7CB8E20F7C1EB001E396B /* LaunchScreen.storyboard */; };
+		AEB7CBA020F7F8C8001E396B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB9F20F7F8C8001E396B /* LoginController.swift */; };
+		AEB7CBA320F87233001E396B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CBA220F87233001E396B /* Extensions.swift */; };
+		AEB7CBA520F941F5001E396B /* Raechability.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CBA420F941F5001E396B /* Raechability.swift */; };
+		AEB7CBA720F9838A001E396B /* SiteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CBA620F9838A001E396B /* SiteTableViewCell.swift */; };
+		AEB7CBA920FCFB59001E396B /* SitesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CBA820FCFB59001E396B /* SitesTableViewController.swift */; };
+		AEB7CBCF20FD3D9E001E396B /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CBCE20FD3D9E001E396B /* PersistenceService.swift */; };
+		AEEA2F7920FEABA500021025 /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA2F7820FEABA400021025 /* FieldValidator.swift */; };
+		AEEA2F7D20FF96C800021025 /* InsertSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA2F7C20FF96C800021025 /* InsertSiteView.swift */; };
+		AEEA2F7F20FFD93500021025 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA2F7E20FFD93500021025 /* ModalView.swift */; };
+		AEEA2F8120FFDAC500021025 /* InfoSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEA2F8020FFDAC500021025 /* InfoSiteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		485275303AB2B8A14BBFC0A9 /* Pods-Prova Pratica iOS Cedro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prova Pratica iOS Cedro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Prova Pratica iOS Cedro/Pods-Prova Pratica iOS Cedro.release.xcconfig"; sourceTree = "<group>"; };
+		659F327BEDCA4FB992A2263A /* libPods-Prova Pratica iOS Cedro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Prova Pratica iOS Cedro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95B8DE6DA06C6FD9DB5A67 /* Pods-Prova Pratica iOS Cedro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Prova Pratica iOS Cedro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Prova Pratica iOS Cedro/Pods-Prova Pratica iOS Cedro.debug.xcconfig"; sourceTree = "<group>"; };
+		AE16C160210063FC00549F56 /* EditSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSiteView.swift; sourceTree = "<group>"; };
+		AE16C1622100CAE300549F56 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		AE16C1642100DD8600549F56 /* BiometricIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
+		AE16C16721010C6500549F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE2096AE21011166006E6534 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "/Users/giovane/EstudoIOs/ProvaPraticaiOSCedro/Prova Pratica iOS Cedro/Model/User+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		AE2096AF21011166006E6534 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AE2096B021011166006E6534 /* Site+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Site+CoreDataProperties.swift"; path = "../../Site+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AE2096B121011166006E6534 /* Site+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Site+CoreDataClass.swift"; path = "../../Site+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AE2096B621017463006E6534 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		AEB7CB7F20F7C1E8001E396B /* Prova Pratica iOS Cedro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prova Pratica iOS Cedro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AEB7CB8420F7C1E8001E396B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AEB7CB8720F7C1E8001E396B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEB7CB8A20F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prova_Pratica_iOS_Cedro.xcdatamodel; sourceTree = "<group>"; };
 		AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEB7CB8F20F7C1EB001E396B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEB7CB9120F7C1EB001E396B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB7CB9F20F7F8C8001E396B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		AEB7CBA220F87233001E396B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AEB7CBA420F941F5001E396B /* Raechability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raechability.swift; sourceTree = "<group>"; };
+		AEB7CBA620F9838A001E396B /* SiteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteTableViewCell.swift; sourceTree = "<group>"; };
+		AEB7CBA820FCFB59001E396B /* SitesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitesTableViewController.swift; sourceTree = "<group>"; };
+		AEB7CBCE20FD3D9E001E396B /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		AEEA2F7820FEABA400021025 /* FieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
+		AEEA2F7C20FF96C800021025 /* InsertSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertSiteView.swift; sourceTree = "<group>"; };
+		AEEA2F7E20FFD93500021025 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		AEEA2F8020FFDAC500021025 /* InfoSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSiteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C35621C4D88D2E3B4A43CEF /* libPods-Prova Pratica iOS Cedro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +81,8 @@
 			children = (
 				AEB7CB8120F7C1E8001E396B /* Prova Pratica iOS Cedro */,
 				AEB7CB8020F7C1E8001E396B /* Products */,
+				C901070AF4995B0B4323B086 /* Pods */,
+				F487F20026720121E3F1CD62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +97,81 @@
 		AEB7CB8120F7C1E8001E396B /* Prova Pratica iOS Cedro */ = {
 			isa = PBXGroup;
 			children = (
+				AEB7CB9A20F7E5CE001E396B /* Model */,
+				AEB7CB9720F7E586001E396B /* View */,
+				AEB7CB9920F7E5A6001E396B /* Controller */,
+				AEB7CBA120F87210001E396B /* Complements */,
 				AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */,
-				AEB7CB8420F7C1E8001E396B /* ViewController.swift */,
-				AEB7CB8620F7C1E8001E396B /* Main.storyboard */,
 				AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */,
+				AE16C16621010C6500549F56 /* Main.storyboard */,
 				AEB7CB8E20F7C1EB001E396B /* LaunchScreen.storyboard */,
 				AEB7CB9120F7C1EB001E396B /* Info.plist */,
 				AEB7CB8920F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld */,
 			);
 			path = "Prova Pratica iOS Cedro";
+			sourceTree = "<group>";
+		};
+		AEB7CB9720F7E586001E396B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB7CBA620F9838A001E396B /* SiteTableViewCell.swift */,
+				AEEA2F7C20FF96C800021025 /* InsertSiteView.swift */,
+				AE16C160210063FC00549F56 /* EditSiteView.swift */,
+				AEEA2F8020FFDAC500021025 /* InfoSiteView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEB7CB9920F7E5A6001E396B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEB7CB9F20F7F8C8001E396B /* LoginController.swift */,
+				AEB7CBA820FCFB59001E396B /* SitesTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEB7CB9A20F7E5CE001E396B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE2096AE21011166006E6534 /* User+CoreDataClass.swift */,
+				AE2096AF21011166006E6534 /* User+CoreDataProperties.swift */,
+				AE2096B121011166006E6534 /* Site+CoreDataClass.swift */,
+				AE2096B021011166006E6534 /* Site+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AEB7CBA120F87210001E396B /* Complements */ = {
+			isa = PBXGroup;
+			children = (
+				AE16C1642100DD8600549F56 /* BiometricIDAuth.swift */,
+				AE16C1622100CAE300549F56 /* KeychainPasswordItem.swift */,
+				AEB7CBA220F87233001E396B /* Extensions.swift */,
+				AEB7CBA420F941F5001E396B /* Raechability.swift */,
+				AEB7CBCE20FD3D9E001E396B /* PersistenceService.swift */,
+				AEEA2F7820FEABA400021025 /* FieldValidator.swift */,
+				AEEA2F7E20FFD93500021025 /* ModalView.swift */,
+				AE2096B621017463006E6534 /* LoadingView.swift */,
+			);
+			path = Complements;
+			sourceTree = "<group>";
+		};
+		C901070AF4995B0B4323B086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A95B8DE6DA06C6FD9DB5A67 /* Pods-Prova Pratica iOS Cedro.debug.xcconfig */,
+				485275303AB2B8A14BBFC0A9 /* Pods-Prova Pratica iOS Cedro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F487F20026720121E3F1CD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				659F327BEDCA4FB992A2263A /* libPods-Prova Pratica iOS Cedro.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +181,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEB7CB9420F7C1EB001E396B /* Build configuration list for PBXNativeTarget "Prova Pratica iOS Cedro" */;
 			buildPhases = (
+				842103D17214965AB4039C96 /* [CP] Check Pods Manifest.lock */,
 				AEB7CB7B20F7C1E8001E396B /* Sources */,
 				AEB7CB7C20F7C1E8001E396B /* Frameworks */,
 				AEB7CB7D20F7C1E8001E396B /* Resources */,
@@ -125,32 +233,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE16C16821010C6500549F56 /* Main.storyboard in Resources */,
 				AEB7CB9020F7C1EB001E396B /* LaunchScreen.storyboard in Resources */,
 				AEB7CB8D20F7C1EB001E396B /* Assets.xcassets in Resources */,
-				AEB7CB8820F7C1E8001E396B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		842103D17214965AB4039C96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Prova Pratica iOS Cedro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEB7CB7B20F7C1E8001E396B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB7CBA520F941F5001E396B /* Raechability.swift in Sources */,
+				AEEA2F7F20FFD93500021025 /* ModalView.swift in Sources */,
+				AE16C161210063FC00549F56 /* EditSiteView.swift in Sources */,
+				AE16C1652100DD8600549F56 /* BiometricIDAuth.swift in Sources */,
+				AEEA2F8120FFDAC500021025 /* InfoSiteView.swift in Sources */,
+				AE2096B421011166006E6534 /* Site+CoreDataProperties.swift in Sources */,
+				AE16C1632100CAE300549F56 /* KeychainPasswordItem.swift in Sources */,
+				AE2096B521011166006E6534 /* Site+CoreDataClass.swift in Sources */,
 				AEB7CB8B20F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld in Sources */,
-				AEB7CB8520F7C1E8001E396B /* ViewController.swift in Sources */,
+				AE2096B321011166006E6534 /* User+CoreDataProperties.swift in Sources */,
+				AE2096B221011166006E6534 /* User+CoreDataClass.swift in Sources */,
+				AEB7CBA720F9838A001E396B /* SiteTableViewCell.swift in Sources */,
+				AEB7CBCF20FD3D9E001E396B /* PersistenceService.swift in Sources */,
+				AE2096B721017464006E6534 /* LoadingView.swift in Sources */,
+				AEB7CBA320F87233001E396B /* Extensions.swift in Sources */,
+				AEEA2F7920FEABA500021025 /* FieldValidator.swift in Sources */,
+				AEB7CBA920FCFB59001E396B /* SitesTableViewController.swift in Sources */,
 				AEB7CB8320F7C1E8001E396B /* AppDelegate.swift in Sources */,
+				AEEA2F7D20FF96C800021025 /* InsertSiteView.swift in Sources */,
+				AEB7CBA020F7F8C8001E396B /* LoginController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AEB7CB8620F7C1E8001E396B /* Main.storyboard */ = {
+		AE16C16621010C6500549F56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AEB7CB8720F7C1E8001E396B /* Base */,
+				AE16C16721010C6500549F56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -282,11 +428,13 @@
 		};
 		AEB7CB9520F7C1EB001E396B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A95B8DE6DA06C6FD9DB5A67 /* Pods-Prova Pratica iOS Cedro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N79DHHMYVL;
 				INFOPLIST_FILE = "Prova Pratica iOS Cedro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +448,13 @@
 		};
 		AEB7CB9620F7C1EB001E396B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485275303AB2B8A14BBFC0A9 /* Pods-Prova Pratica iOS Cedro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N79DHHMYVL;
 				INFOPLIST_FILE = "Prova Pratica iOS Cedro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+module Pods_Prova_Pratica_iOS_Cedro {
+  umbrella header "Pods-Prova Pratica iOS Cedro-umbrella.h"
+
+  export *
+  module * { export * }
+}
