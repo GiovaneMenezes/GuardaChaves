@@ -11,12 +11,13 @@
 		AE16C161210063FC00549F56 /* EditSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C160210063FC00549F56 /* EditSiteView.swift */; };
 		AE16C1632100CAE300549F56 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C1622100CAE300549F56 /* KeychainPasswordItem.swift */; };
 		AE16C1652100DD8600549F56 /* BiometricIDAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE16C1642100DD8600549F56 /* BiometricIDAuth.swift */; };
-		AE16C16821010C6500549F56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE16C16621010C6500549F56 /* Main.storyboard */; };
 		AE2096B221011166006E6534 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096AE21011166006E6534 /* User+CoreDataClass.swift */; };
 		AE2096B321011166006E6534 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096AF21011166006E6534 /* User+CoreDataProperties.swift */; };
 		AE2096B421011166006E6534 /* Site+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B021011166006E6534 /* Site+CoreDataProperties.swift */; };
 		AE2096B521011166006E6534 /* Site+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B121011166006E6534 /* Site+CoreDataClass.swift */; };
 		AE2096B721017464006E6534 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2096B621017463006E6534 /* LoadingView.swift */; };
+		AE2387DC237A5A7E00B1F4CD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2387DB237A5A7E00B1F4CD /* LoginViewController.swift */; };
+		AE2387DE237A5B1900B1F4CD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2387DD237A5B1900B1F4CD /* LoginViewModel.swift */; };
 		AEB7CB8320F7C1E8001E396B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */; };
 		AEB7CB8B20F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AEB7CB8920F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld */; };
 		AEB7CB8D20F7C1EB001E396B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */; };
@@ -40,13 +41,14 @@
 		AE16C160210063FC00549F56 /* EditSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSiteView.swift; sourceTree = "<group>"; };
 		AE16C1622100CAE300549F56 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
 		AE16C1642100DD8600549F56 /* BiometricIDAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiometricIDAuth.swift; sourceTree = "<group>"; };
-		AE16C16721010C6500549F56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2096AE21011166006E6534 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataClass.swift"; path = "/Users/giovane/EstudoIOs/ProvaPraticaiOSCedro/Prova Pratica iOS Cedro/Model/User+CoreDataClass.swift"; sourceTree = "<absolute>"; };
 		AE2096AF21011166006E6534 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AE2096B021011166006E6534 /* Site+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Site+CoreDataProperties.swift"; path = "../../Site+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AE2096B121011166006E6534 /* Site+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Site+CoreDataClass.swift"; path = "../../Site+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AE2096B621017463006E6534 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		AEB7CB7F20F7C1E8001E396B /* Prova Pratica iOS Cedro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prova Pratica iOS Cedro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2387DB237A5A7E00B1F4CD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AE2387DD237A5B1900B1F4CD /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		AEB7CB7F20F7C1E8001E396B /* GuardaChaves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuardaChaves.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEB7CB8A20F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prova_Pratica_iOS_Cedro.xcdatamodel; sourceTree = "<group>"; };
 		AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -76,6 +78,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE2387D7237A5A1900B1F4CD /* AppSections */ = {
+			isa = PBXGroup;
+			children = (
+				AE2387DF237A5B6100B1F4CD /* SiteList */,
+				AE2387D8237A5A2E00B1F4CD /* Login */,
+			);
+			path = AppSections;
+			sourceTree = "<group>";
+		};
+		AE2387D8237A5A2E00B1F4CD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AE2387DA237A5A5E00B1F4CD /* ViewModel */,
+				AE2387D9237A5A5300B1F4CD /* View */,
+				AEB7CB9F20F7F8C8001E396B /* LoginController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AE2387D9237A5A5300B1F4CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE2387DB237A5A7E00B1F4CD /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE2387DA237A5A5E00B1F4CD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE2387DD237A5B1900B1F4CD /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE2387DF237A5B6100B1F4CD /* SiteList */ = {
+			isa = PBXGroup;
+			children = (
+				AEB7CBA820FCFB59001E396B /* SitesTableViewController.swift */,
+			);
+			path = SiteList;
+			sourceTree = "<group>";
+		};
 		AEB7CB7620F7C1E7001E396B = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +134,7 @@
 		AEB7CB8020F7C1E8001E396B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEB7CB7F20F7C1E8001E396B /* Prova Pratica iOS Cedro.app */,
+				AEB7CB7F20F7C1E8001E396B /* GuardaChaves.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,13 +142,12 @@
 		AEB7CB8120F7C1E8001E396B /* Prova Pratica iOS Cedro */ = {
 			isa = PBXGroup;
 			children = (
+				AE2387D7237A5A1900B1F4CD /* AppSections */,
 				AEB7CB9A20F7E5CE001E396B /* Model */,
 				AEB7CB9720F7E586001E396B /* View */,
-				AEB7CB9920F7E5A6001E396B /* Controller */,
 				AEB7CBA120F87210001E396B /* Complements */,
 				AEB7CB8220F7C1E8001E396B /* AppDelegate.swift */,
 				AEB7CB8C20F7C1EB001E396B /* Assets.xcassets */,
-				AE16C16621010C6500549F56 /* Main.storyboard */,
 				AEB7CB8E20F7C1EB001E396B /* LaunchScreen.storyboard */,
 				AEB7CB9120F7C1EB001E396B /* Info.plist */,
 				AEB7CB8920F7C1E8001E396B /* Prova_Pratica_iOS_Cedro.xcdatamodeld */,
@@ -120,15 +164,6 @@
 				AEEA2F8020FFDAC500021025 /* InfoSiteView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		AEB7CB9920F7E5A6001E396B /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				AEB7CB9F20F7F8C8001E396B /* LoginController.swift */,
-				AEB7CBA820FCFB59001E396B /* SitesTableViewController.swift */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		AEB7CB9A20F7E5CE001E396B /* Model */ = {
@@ -177,9 +212,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AEB7CB7E20F7C1E8001E396B /* Prova Pratica iOS Cedro */ = {
+		AEB7CB7E20F7C1E8001E396B /* GuardaChaves */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AEB7CB9420F7C1EB001E396B /* Build configuration list for PBXNativeTarget "Prova Pratica iOS Cedro" */;
+			buildConfigurationList = AEB7CB9420F7C1EB001E396B /* Build configuration list for PBXNativeTarget "GuardaChaves" */;
 			buildPhases = (
 				842103D17214965AB4039C96 /* [CP] Check Pods Manifest.lock */,
 				AEB7CB7B20F7C1E8001E396B /* Sources */,
@@ -190,9 +225,9 @@
 			);
 			dependencies = (
 			);
-			name = "Prova Pratica iOS Cedro";
+			name = GuardaChaves;
 			productName = "Prova Pratica iOS Cedro";
-			productReference = AEB7CB7F20F7C1E8001E396B /* Prova Pratica iOS Cedro.app */;
+			productReference = AEB7CB7F20F7C1E8001E396B /* GuardaChaves.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +245,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AEB7CB7A20F7C1E8001E396B /* Build configuration list for PBXProject "Prova Pratica iOS Cedro" */;
+			buildConfigurationList = AEB7CB7A20F7C1E8001E396B /* Build configuration list for PBXProject "GuardaChaves" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,7 +258,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AEB7CB7E20F7C1E8001E396B /* Prova Pratica iOS Cedro */,
+				AEB7CB7E20F7C1E8001E396B /* GuardaChaves */,
 			);
 		};
 /* End PBXProject section */
@@ -233,7 +268,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE16C16821010C6500549F56 /* Main.storyboard in Resources */,
 				AEB7CB9020F7C1EB001E396B /* LaunchScreen.storyboard in Resources */,
 				AEB7CB8D20F7C1EB001E396B /* Assets.xcassets in Resources */,
 			);
@@ -267,7 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2387DC237A5A7E00B1F4CD /* LoginViewController.swift in Sources */,
 				AEB7CBA520F941F5001E396B /* Raechability.swift in Sources */,
+				AE2387DE237A5B1900B1F4CD /* LoginViewModel.swift in Sources */,
 				AEEA2F7F20FFD93500021025 /* ModalView.swift in Sources */,
 				AE16C161210063FC00549F56 /* EditSiteView.swift in Sources */,
 				AE16C1652100DD8600549F56 /* BiometricIDAuth.swift in Sources */,
@@ -293,14 +329,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE16C16621010C6500549F56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE16C16721010C6500549F56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AEB7CB8E20F7C1EB001E396B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gsmenezes.Prova-Pratica-iOS-Cedro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GuardaChaves;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -460,7 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gsmenezes.Prova-Pratica-iOS-Cedro";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GuardaChaves;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AEB7CB7A20F7C1E8001E396B /* Build configuration list for PBXProject "Prova Pratica iOS Cedro" */ = {
+		AEB7CB7A20F7C1E8001E396B /* Build configuration list for PBXProject "GuardaChaves" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEB7CB9220F7C1EB001E396B /* Debug */,
@@ -478,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AEB7CB9420F7C1EB001E396B /* Build configuration list for PBXNativeTarget "Prova Pratica iOS Cedro" */ = {
+		AEB7CB9420F7C1EB001E396B /* Build configuration list for PBXNativeTarget "GuardaChaves" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AEB7CB9520F7C1EB001E396B /* Debug */,
